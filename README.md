@@ -1,17 +1,17 @@
-# Messenger Community
+# Our Small World
 
 A modern web application for building meaningful conversations and connections.
 
 ## Project Overview
 
-This is a React-based web application built with Vite, featuring a clean and responsive design for a messaging community platform. The application currently features a "Coming Soon" landing page as we build out the full functionality.
+This is a React-based web application built with Vite, featuring a clean and responsive design for a messaging community platform.
 
 ## Features
 
 - Clean, responsive design with Tailwind CSS
-- "Coming Soon" landing page for the messenger community
 - Modern UI with animated elements
 - Fully responsive for all device sizes
+- Navigation bar with mobile support
 
 ## Tech Stack
 
@@ -26,7 +26,22 @@ This is a React-based web application built with Vite, featuring a clean and res
 - Node.js (version 14 or higher)
 - npm or yarn
 
+### Installation
 
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd our-small-world
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
 ### Development
 
@@ -58,6 +73,8 @@ npm run preview
 
 ```
 src/
+├── components/
+│   └── Navbar.jsx    # Navigation bar component
 ├── pages/
 │   └── Home.jsx      # Main landing page
 ├── App.css           # Global styles
@@ -67,7 +84,7 @@ src/
 
 ## Customization
 
-To modify the content of the "Coming Soon" page, edit `src/pages/Home.jsx`. The styling uses Tailwind CSS classes for easy customization.
+To modify the content of the page, edit `src/pages/Home.jsx`. The styling uses Tailwind CSS classes for easy customization.
 
 ## Contributing
 
